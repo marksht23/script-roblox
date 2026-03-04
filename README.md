@@ -2,7 +2,7 @@
 
 Hello! I'm a newbie scripter.
 
-I originally made this script for my own script loader for injectors:
+I originally made this script for my own script loader for injectors: loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/script-roblox/refs/heads/main/script.lua"))()
 
 ## License
 This project is licensed as **All Rights Reserved (with exceptions for promotional and official loaders)**.
