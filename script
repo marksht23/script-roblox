@@ -56,13 +56,13 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Escape Tsunami For Brainrots",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots?token=GHSAT0AAAAAADW4UEXYKYCIF4HPVO77TSIO2NH4ONQ"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots?token=GHSAT0AAAAAADW4UEXYFEB4S5UEVLONTT6U2NH4ULA"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Survive LAVA for Brainrots",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots?token=GHSAT0AAAAAADW4UEXZ2FEMUVG2DMVM4ZYO2NH4OPQ"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots?token=GHSAT0AAAAAADW4UEXYPWK7YZID7XRKLDF42NH4UMA"))()
    end,
 })
