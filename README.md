@@ -1,20 +1,21 @@
 # Mark's Roblox Script
 
-Привет! Я начинающий скриптер.  
-Этот скрипт я сделал изначально для **своего загрузчика скриптов** для инжекторов: loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/script-roblox/refs/heads/main/script.lua"))()  
+Hello! I'm a newbie scripter.
 
+I originally made this script for my own script loader for injectors: loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/script-roblox/refs/heads/main/script.lua"))()
 
 ## License
-Этот проект лицензирован как **All Rights Reserved (с исключением для промо и официального загрузчика)**.  
-Нельзя:
-- выкладывать скрипт от своего имени
-- распространять исходный код
-- давать прямые ссылки на ".lua"
+This project is licensed as **All Rights Reserved (with exceptions for promotional and official loaders)**.
 
-Можно:
-- делать обзоры и показывать скрипт в видео/стримах
-- указывать автора (Mark)
-- давать ссылку только на официальный загрузчик
+You are not allowed to:
+- post the script in your own name
+- distribute the source code
+- provide direct links to ".lua"
 
-Автор: **Mark**  
-Дата: 2026-03-04
+You are allowed to:
+- review and feature the script in videos/streams
+- attribute the author (Mark)
+- only link to the official loader
+
+Author: **Mark**
+Date: 2026-03-04
