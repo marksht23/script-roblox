@@ -44,9 +44,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab1 = Window:CreateTab("Tab 1", 4483362458) -- Title, Image
+local Tab2 = Window:CreateTab("Tab 1", 4483362458) -- Title, Image
 
-local Button = Tab1:CreateButton({
+local Button = Tab2:CreateButton({
    Name = "Free vip",
    Callback = function()
    game.Workspace.VIPWalls:Destroy()
