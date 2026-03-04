@@ -44,7 +44,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab3 = Window:CreateTab("Tab 1", 4483362458) -- Title, Image
+local Tab3 = Window:CreateTab("Tab 3", 4483362458) -- Title, Image
 
 local Button = Tab3:CreateButton({
    Name = "Free vip",
