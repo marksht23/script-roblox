@@ -46,9 +46,11 @@ local Window = Rayfield:CreateWindow({
 
 local TabWater = Window:CreateTab("WaterMark", 4483362458)
 
+local TabWater = Window:CreateTab("WaterMark", 4483362458)
+
 TabWater:CreateLabel("© Mark")
-TabWater:CreateLabel("My profile github: https://github.com/marksht23")
-TabWater:CreateLAbel("My repositore: https://github.com/marksht23/script-roblox")
+TabWater:CreateLabel("My GitHub: https://github.com/marksht23")
+TabWater:CreateLabel("My Repository: https://github.com/marksht23/script-roblox")
 TabWater:CreateLabel("Unauthorized redistribution prohibited")
 
 local Tab1 = Window:CreateTab("scriptes", 4483362458) -- Title, Image
