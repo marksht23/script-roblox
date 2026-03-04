@@ -46,8 +46,6 @@ local Window = Rayfield:CreateWindow({
 
 local TabWater = Window:CreateTab("WaterMark", 4483362458)
 
-local TabWater = Window:CreateTab("WaterMark", 4483362458)
-
 TabWater:CreateLabel("© Mark")
 TabWater:CreateLabel("My GitHub: https://github.com/marksht23")
 TabWater:CreateLabel("My Repository: https://github.com/marksht23/script-roblox")
