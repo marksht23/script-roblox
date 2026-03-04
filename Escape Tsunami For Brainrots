@@ -8,10 +8,10 @@ if not success then
 end
 
 local Window = Rayfield:CreateWindow({
-   Name = "Rayfield Example Window",
+   Name = "Escape Tsunami For Brainrots",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
+   LoadingTitle = "loding...",
+   LoadingSubtitle = "by Mark",
    ShowText = "Rayfield", -- for mobile users to unhide Rayfield, change if you'd like
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -44,7 +44,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Button = Tab:CreateButton({
+local Tab1 = Window:CreateTab("Tab 1", 4483362458) -- Title, Image
+
+local Button = Tab1:CreateButton({
    Name = "Free vip",
    Callback = function()
    game.Workspace.VIPWalls:Destroy()
