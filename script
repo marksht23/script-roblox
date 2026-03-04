@@ -3,14 +3,14 @@ local success, Rayfield = pcall(function()
 end)
 
 if not success then
-    warn("Failed to load Rayfield")
+    warn("Failed to load script")
     return
 end
 
 local Window = Rayfield:CreateWindow({
    Name = "Markscript",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Loding...",
+   LoadingTitle = "Loading...",
    LoadingSubtitle = "by Mark",
    ShowText = "Rayfield", -- for mobile users to unhide Rayfield, change if you'd like
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      FileName = "Markscript_Config"
    },
 
    Discord = {
@@ -49,20 +49,20 @@ local Tab1 = Window:CreateTab("Tab 1", 4483362458) -- Title, Image
 local Button = Tab1:CreateButton({
    Name = "скрипт Coolkidd",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
+       RunScript(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true)
    end,
 })
 
 local Button = Tab1:CreateButton({
    Name = "Escape Tsunami For Brainrots",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots?token=GHSAT0AAAAAADW4UEXYF6VLTO22ILFTIHGC2NH5ETQ", true))()
+       RunScript("https://raw.githubusercontent.com/marksht23/My-script-roblox/main/Escape%20Tsunami%20For%20Brainrots.lua")
    end,
 })
 
 local Button = Tab1:CreateButton({
    Name = "Survive LAVA for Brainrots",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots?token=GHSAT0AAAAAADW4UEXYF6VLTO22ILFTIHGC2NH5ETQ", true))()
+       RunScript(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots", true)
    end,
 })
