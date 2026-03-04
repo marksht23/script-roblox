@@ -44,7 +44,14 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab2 = Window:CreateTab("Tab 2", 4483362458) -- Title, Image
+local TabWater = Window:CreateTab("WaterMark", 4483362458)
+
+TabWater:CreateLabel("© Mark")
+TabWater:CreateLabel("My profile github: https://github.com/marksht23")
+TabWater:CreateLAbel("My repositore: https://github.com/marksht23/script-roblox")
+TabWater:CreateLabel("Unauthorized redistribution prohibited")
+
+local Tab2 = Window:CreateTab("Tab", 4483362458) -- Title, Image
 
 local Button = Tab2:CreateButton({
    Name = "Free vip",
