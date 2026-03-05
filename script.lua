@@ -1,4 +1,4 @@
-local function SafeLoad(url)
+local function SafeLoad(https://sirius.menu/rayfield)
     local success, result = pcall(function()
         return loadstring(game:HttpGet(https://sirius.menu/rayfield))()
     end)
