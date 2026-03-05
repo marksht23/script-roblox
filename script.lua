@@ -1,4 +1,13 @@
-loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local function SafeLoad(url)
+    local success, result = pcall(function()
+        return loadstring(game:HttpGet(https://sirius.menu/rayfield))()
+    end)
+
+    if not success then
+        warn("Failed to load script:", https://sirius.menu/rayfield)
+        warn(result)
+    end
+end
 
 local Window = Rayfield:CreateWindow({
    Name = "My script",
@@ -56,13 +65,13 @@ local Button = Tab1:CreateButton({
 local Button = Tab1:CreateButton({
    Name = "Escape Tsunami For Brainrots",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots.lua", true))()
    end,
 })
 
 local Button = Tab1:CreateButton({
    Name = "Survive LAVA for Brainrots",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots.lua", true))()
    end,
 })
