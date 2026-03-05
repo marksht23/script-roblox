@@ -49,20 +49,20 @@ local Tab1 = Window:CreateTab("scriptes", 4483362458) -- Title, Image
 local Button = Tab1:CreateButton({
    Name = "script Coolkidd",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true)
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
    end,
 })
 
 local Button = Tab1:CreateButton({
    Name = "Escape Tsunami For Brainrots",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Escape%20Tsunami%20For%20Brainrots", true))()
    end,
 })
 
 local Button = Tab1:CreateButton({
    Name = "Survive LAVA for Brainrots",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/marksht23/My-script-roblox/refs/heads/main/Survive%20LAVA%20for%20Brainrots", true))()
    end,
 })
