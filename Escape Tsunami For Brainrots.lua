@@ -1,9 +1,3 @@
-if _G.__SCRIPT_LOADED then
-    warn("[Script] Already loaded")
-    return
-end
-_G.__SCRIPT_LOADED = true
-
 local function DecodeKey(encoded)
     local result = ""
     for num in encoded:gmatch("%d+") do
