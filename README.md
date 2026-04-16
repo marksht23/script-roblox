@@ -14,8 +14,8 @@ You are not allowed to:
 
 You are allowed to:
 - review and feature the script in videos/streams
-- attribute the author (Mark)
+- attribute the author (????)
 - only link to the official loader
 
-Author: **Mark**
+Author: **????**
 Date: 2026-03-04
