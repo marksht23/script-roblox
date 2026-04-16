@@ -1,4 +1,4 @@
-# Mark's Roblox Script
+# My Roblox Script
 
 Hello! I'm a newbie scripter.
 
